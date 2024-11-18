@@ -43,100 +43,103 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(94, 114);
+            textBox1.Location = new Point(94, 129);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(100, 25);
             textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(256, 114);
+            textBox2.Location = new Point(256, 129);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
+            textBox2.Size = new Size(100, 25);
             textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(439, 114);
+            textBox3.Location = new Point(439, 129);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
+            textBox3.Size = new Size(100, 25);
             textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(626, 114);
+            textBox4.Location = new Point(626, 129);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
+            textBox4.Size = new Size(100, 25);
             textBox4.TabIndex = 3;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(120, 96);
+            label1.Location = new Point(120, 109);
             label1.Name = "label1";
-            label1.Size = new Size(43, 15);
+            label1.Size = new Size(47, 17);
             label1.TabIndex = 4;
             label1.Text = "Num 1";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(290, 96);
+            label2.Location = new Point(290, 109);
             label2.Name = "label2";
-            label2.Size = new Size(46, 15);
+            label2.Size = new Size(47, 17);
             label2.TabIndex = 5;
-            label2.Text = "Num l2";
+            label2.Text = "Num 2";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(468, 96);
+            label3.Location = new Point(468, 109);
             label3.Name = "label3";
-            label3.Size = new Size(43, 15);
+            label3.Size = new Size(47, 17);
             label3.TabIndex = 6;
             label3.Text = "Num 3";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(659, 96);
+            label4.Location = new Point(653, 109);
             label4.Name = "label4";
-            label4.Size = new Size(43, 15);
+            label4.Size = new Size(50, 17);
             label4.TabIndex = 7;
-            label4.Text = "Num 4";
+            label4.Text = "Answer";
             // 
             // returnBtn
             // 
-            returnBtn.Location = new Point(178, 249);
+            returnBtn.Location = new Point(178, 282);
             returnBtn.Name = "returnBtn";
-            returnBtn.Size = new Size(75, 23);
+            returnBtn.Size = new Size(75, 26);
             returnBtn.TabIndex = 8;
             returnBtn.Text = "Return Value";
             returnBtn.UseVisualStyleBackColor = true;
+            returnBtn.Click += returnBtn_Click;
             // 
             // globalBtn
             // 
-            globalBtn.Location = new Point(363, 249);
+            globalBtn.Location = new Point(363, 282);
             globalBtn.Name = "globalBtn";
-            globalBtn.Size = new Size(75, 23);
+            globalBtn.Size = new Size(75, 26);
             globalBtn.TabIndex = 9;
             globalBtn.Text = "Global Data";
             globalBtn.UseVisualStyleBackColor = true;
+            globalBtn.Click += globalBtn_Click;
             // 
             // referenceBtn
             // 
-            referenceBtn.Location = new Point(552, 249);
+            referenceBtn.Location = new Point(552, 282);
             referenceBtn.Name = "referenceBtn";
-            referenceBtn.Size = new Size(90, 23);
+            referenceBtn.Size = new Size(90, 26);
             referenceBtn.TabIndex = 10;
             referenceBtn.Text = "Pass-by-Ref";
             referenceBtn.UseVisualStyleBackColor = true;
+            referenceBtn.Click += referenceBtn_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 510);
             Controls.Add(referenceBtn);
             Controls.Add(globalBtn);
             Controls.Add(returnBtn);
